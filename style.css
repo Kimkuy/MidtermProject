@@ -14,8 +14,12 @@ header{
     list-style: none;
     width: 100%;
 }
-#menu li a{
+.notactive{
     text-decoration: none;
+    color: black;
+}
+.active{
+    text-decoration: underline;
     color: black;
 }
 #menu li a:hover{
