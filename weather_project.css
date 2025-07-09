@@ -1,0 +1,225 @@
+.Second-part {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: whitesmoke;
+    padding: 0px 20px;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+.notactive{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    text-decoration: underline;
+    color: black;
+}
+#menu li a:hover{
+    text-decoration: underline;
+}
+#menu li{
+    margin-right: 20px;
+}
+
+.Weather-header h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+        
+
+.Weather-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Weather-temp1 {
+    font-size: 60px;
+    font-style: normal;
+    padding-bottom: 5px;
+}
+
+.Weather-sub-temp1 {
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+.Weather-date1 {
+    font-size: 30px;
+    font-style: bold;
+    padding: 5 0 5;
+}
+
+.Weather-desc1 {
+    padding-top: 5px;
+}
+        
+        .Weather-desc2{
+            padding-top: 20px;
+            font-size: small;
+            font-style: italic;
+        }
+
+        .Weather-item1 {
+            background: linear-gradient(135deg, #2196F3, #1976D2);
+            background-image: url("https://e0.pxfuel.com/wallpapers/17/332/desktop-wallpaper-sky-day-sky.jpg");
+            background-repeat: no-repeat;
+            background-size: 800px;
+            padding: 50px;
+            border-radius: 12px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+         .Weather-temp2 {
+            font-size: 60px;
+            font-style: normal;
+            padding-bottom: 5px;
+        }
+
+        .Weather-sub-temp2 {
+            font-size: 30px;
+            font-style: italic;
+            padding-bottom: 5px;
+        }
+
+        .Weather-date2 {
+            font-size: 30px;
+            font-style: bold;
+            padding: 5 0 5;
+        }
+
+        .Weather-desc3 {
+            padding-top: 5px;
+        }
+        
+        .Weather-desc4{
+            padding-top: 20px;
+            font-size: small;
+            font-style: italic;
+        }
+
+        .Weather-item2 {
+            background: linear-gradient(135deg, #64B5F6, #42A5F5);
+            background-image: url("https://st2.depositphotos.com/27331230/42959/i/450/depositphotos_429591616-stock-photo-sky-blue-orange-light-sun.jpg");
+            background-repeat: no-repeat;
+            background-size: 800px;
+            padding: 50px;
+            border-radius: 12px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+         .Weather-temp3 {
+            font-size: 60px;
+            font-style: normal;
+            padding-bottom: 5px;
+        }
+
+        .Weather-sub-temp3 {
+            font-size: 30px;
+            font-style: italic;
+            padding-bottom: 5px;
+        }
+
+        .Weather-date3 {
+            font-size: 30px;
+            font-style: bold;
+            padding: 5 0 5;
+        }
+
+        .Weather-desc5 {
+            padding-top: 5px;
+        }
+        
+        .Weather-desc6{
+            padding-top: 20px;
+            font-size: small;
+            font-style: italic;
+        }
+
+
+        .Weather-item3 {
+            background: linear-gradient(135deg, #64B5F6, #42A5F5);
+            background-image: url("https://images3.alphacoders.com/223/223629.jpeg");
+            background-repeat: no-repeat;
+            background-size: 800px;
+            padding: 50px;
+            border-radius: 12px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .headEach {
+            padding-top: 15px;
+            color:rgb(8, 0, 255);
+        }
+
+        
+        .weather-info {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .info-item {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            margin-bottom: 40px;
+            padding: 6px 12px;
+            font-size: 13px;
+            text-align: right;
+            min-width: 80px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .info-item strong {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: black;
+            font-style: italic;
+        }
+        .footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D9D9D9CC;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: black;
+}
+.footer li a:hover{
+    text-decoration: underline;
+}
+.footer li{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer .rectangle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
