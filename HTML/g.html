@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework function3</title>
+</head>
+<script>
+    function add(a,b){
+        sum=Number(document.getElementById("a").value)+Number(document.getElementById("b").value);
+        return sum;
+    }
+    function result(){
+        document.getElementById("display").innerHTML=add(a,b);
+    }
+</script>
+<body>
+    <h1>function with return value</h1>
+    <label name="a">a:</label>
+    <input type="number" id="a" name="a" value="0">
+    <label name="b">b:</label>
+    <input type="number" id="b" name="b" value="0">
+    <button onclick="result()">+</button>
+    <p id="display"></p>
+</body>
+</html>
