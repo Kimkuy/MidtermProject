@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const apikey = "f13345734de7794a933a91bf62a78474";
 const cityInput = document.querySelector(".cityInput");
 const weatherForm = document.querySelector(".weatherForm");
