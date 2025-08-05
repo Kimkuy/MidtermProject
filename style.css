@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0px;
     padding: 0px;
@@ -213,4 +214,202 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+=======
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: whitesmoke;
+    padding: 0px 20px;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+.notactive{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    text-decoration: underline;
+    color: black;
+}
+#menu li a:hover{
+    text-decoration: underline;
+}
+#menu li{
+    margin-right: 20px;
+}
+.search-bar{
+    background-image: url(cloud.jpg);
+    background-size: cover;
+    height:200px;
+    align-content: flex-end;
+    padding-right: 30px;
+}
+.location{
+    float: right;
+    background-color: #D9D9D9CC;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    padding: 5px 20px 5px 15px;
+}
+.current-location{
+    border-style: none;
+    border-radius: 40px;
+    background-color: #D9D9D9CC;
+    margin-left: 25px;
+}
+input[type=text]{
+    float: right;
+    background-color: #D9D9D9CC;
+    border-style: none;
+    border-radius: 5px;
+    width: 95%;
+    padding: 5px 0px 5px 10px;
+}
+.current-location:hover{
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.header .title{
+    font-size: 1.2em;
+}
+.weather-header{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.weather-header-detail{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.temperature{
+    grid-column: 1/2 ;
+    display: flex;
+    align-items: center;
+}
+.temperature span{
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weather-details{
+    grid-column: 2/3;
+}
+.detail-label{
+    display: flex;
+    justify-content: space-between;
+}
+.detail-label .air-quality{
+    color: #20E46B;
+}
+.weather-bottom{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.weather-status{
+    grid-column: 1/2;
+}
+.weather-status a{
+    color: rgb(83, 81, 81);
+    text-decoration: none;
+}
+.weather-status a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.uv-index{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    font-size: 1.2em;
+}
+.uv-index b{
+    margin-right: 10px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: #4380B066;
+    margin-top: 40px;
+}
+.map-part img{
+    width: 100%;
+}
+.event{
+    background-color: #94B1C7;
+}
+h1{
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.pic img{
+    width: 100%;
+}
+.pic{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.pic1{
+    margin-left: 20px;
+    text-align: left;
+}
+.pic2{
+    margin-left: 20px;
+}
+.pic3{
+    margin-left: 20px;
+}
+.pic4{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.see-more{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.see-more a{
+    text-decoration: none;
+    color: black;
+}
+.see-more a:hover{
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D9D9D9CC;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: black;
+}
+.footer li a:hover{
+    text-decoration: underline;
+}
+.footer li{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer .rectangle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> 08425ea71bb4082eb9f4024eafe4e8b5219d14d6
 }
