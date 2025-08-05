@@ -1,8 +1,0 @@
-.outside_div{
-    border:solid red;
-    padding: 10px 15px;
-}
-.inside_div{
-    border:dashed green;
-    margin: 0px 20px;
-}
