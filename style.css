@@ -14,8 +14,12 @@ header{
     list-style: none;
     width: 100%;
 }
-#menu li a{
+.notactive{
     text-decoration: none;
+    color: black;
+}
+.active{
+    text-decoration: underline;
     color: black;
 }
 #menu li a:hover{
@@ -44,13 +48,32 @@ header{
     background-color: #D9D9D9CC;
     margin-left: 25px;
 }
+#displayerror{
+    margin-left: 10px;
+}
 input[type=text]{
-    float: right;
+    float: left;
     background-color: #D9D9D9CC;
     border-style: none;
     border-radius: 5px;
-    width: 95%;
+    width: 85%;
     padding: 5px 0px 5px 10px;
+    margin-left: 10px;
+}
+button[type=submit]{
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    color: #f2f2f2;
+    padding: 0 8pt !important;
+    height: 20pt;
+    width: 83px;
+    float: right;
+    margin-left: 5px;
+}
+button[type=submit]:hover{
+    cursor: pointer;
+    background-color: #48484a;
+    border-color: #48484a;
 }
 .current-location:hover{
     cursor: pointer;

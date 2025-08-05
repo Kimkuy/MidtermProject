@@ -7,7 +7,6 @@
     <link rel="icon" href="Rain.PNG"
         type="image/x-icon" />
         <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <header>
@@ -18,12 +17,12 @@
         <nav>
             <ul>
                 <li><a class="active" href="home.html">Home</a></li>
-                <li><a href="#About us">About us</a></li>
-                <li><a href="daily.html">Daily</a></li>
-                <li><a href="#Monthly">Monthly</a></li>
-                <li><a href="#Air quality">Air quality</a></li>
+                <li><a class="notactive" href="#About us">About us</a></li>
+                <li><a class="notactive" href="daily.html">Daily</a></li>
+                <li><a class="notactive" href="#Monthly">Monthly</a></li>
+                <li><a class="notactive" href="#Air quality">Air quality</a></li>
                 <li>
-                    <a href="#Setting">Setting</a>
+                    <a class="notactive" href="#Setting">Setting</a>
                     <img src="Setting.png" alt="Weather" style="height: 1em; width: auto; vertical-align: middle;">
                 </li>
             </ul>
@@ -33,32 +32,38 @@
     <div class="body">
     <div role="main">
     <div class="search-bar">
-        <input type="text" placeholder="&#128269 Search.."><br><br>
+        <div id="displayerror"></div>
+        <form class="weatherForm">
+        <input type="text" placeholder="&#128269 Search.." class="cityInput">
+        <button type="submit">search</button>
+        </form>
+        <br><br>
         <div class="location">
             Current location
         <select class="current-location">
             
-            <option value="PhnomPenh"> PhnomPenh </option>
+            <option value="" id="location"> ----- </option>
+            
         </select>
     </div>
     </div>
     <section class="weather-wiget">
     <div class=" weather-header">
-        <div class="header"><span class="title"> Current Weather</span><span class="time"> 8:10 PM </span></div><hr>
+        <div class="header"><span class="title"> Current Weather</span><span class="time"> --:-- AM/PM</span></div><hr>
         <div class="weather-header-detail">
-        <div class="temperature"><img src="cloud1.jpg" alt="Current Weather" style="width: 150px; height: auto;">
-        <span> 31°</span></div>
+        <div class="temperature"><img src="" alt="Current Weather" id="img" style="width: 150px; height: auto;">
+        <span class="tempdisplay"> --°C</span></div>
     <div class="weather-details">
         <div class="details-row">
-            <div class="detail-label"> Wind<span class="wind"> WSW 23 km/h</span></div><hr>
-            <div class="detail-label"> Wind Gust<span class="wind-gust"> 29 kh/h</span></div><hr>
-            <div class="detail-label"> Air Quality<span class="air-quality"> FAIR</span></div><hr>
+            <div class="detail-label"> Wind<span class="wind"> ------ km/h</span></div><hr>
+            <div class="detail-label"> Wind Gust<span class="wind-gust"> -- km/h</span></div><hr>
+            <div class="detail-label"> Air Quality<span class="air-quality"> ----</span></div><hr>
         </div>
         </div>
     </div>
     </div>
     <div class="weather-bottom">
-    <div class="weather-status"> Partly Sunny<br>
+    <div class="weather-status"> <P class="status">------------</P>
         <a href="#" class="link"> See more details</a></div>
     <div class="uv-index"> <b>UV index:</b> 0 Low</div>
     </div><hr style="margin-left: 20px; margin-right: 20px;">
@@ -133,5 +138,6 @@
     </div>
     </div>
     </div>
+    <script src="home.js"></script>
 </body>
 </html>
