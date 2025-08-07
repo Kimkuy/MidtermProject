@@ -9,25 +9,7 @@ header{
     background-color: whitesmoke;
     padding: 0px 20px;
 }
-#menu ul{
-    display: flex;
-    list-style: none;
-    width: 100%;
-}
-.notactive{
-    text-decoration: none;
-    color: black;
-}
-.active{
-    text-decoration: underline;
-    color: black;
-}
-#menu li a:hover{
-    text-decoration: underline;
-}
-#menu li{
-    margin-right: 20px;
-}
+
 .search-bar{
     background-image: url(cloud.jpg);
     background-size: cover;
@@ -177,6 +159,7 @@ h1{
 .pic4{
     margin-left: 20px;
     margin-right: 20px;
+    width: 90%;
 }
 .see-more{
     text-align: right;

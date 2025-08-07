@@ -57,7 +57,6 @@ function displayweatherInfo(data){
     const time = document.querySelector(".time");
     const img = document.getElementById("img");
 
-
     location.value = name;
     location.innerHTML = name;
     time.innerHTML= `${currenttime(timezone)}`;
